@@ -14,11 +14,7 @@ categories = ["external-ffi-bindings", "multimedia::audio", "text-processing"]
 license = "Apache-2.0"
 
 build = "build/build.rs"
-links = "svoxpico"
+links = "ttspico"
 
 [dependencies]
 libc = "^0.2"
-
-[build-dependencies]
-glob = "^0.3"
-cc = { version = "^1.0", features = ["parallel"] }
